@@ -11,4 +11,9 @@ A resource on computational and artificial life research...
 
 # [](#graphics)Graphics
 
-[funimage.figure](graphics/funimage-figure)  
+[funimage.figure](graphics/funimage-figure)
+
+# [](#visual)Visual
+
+[Moire effect](visual/moire-effect)
+
