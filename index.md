@@ -9,4 +9,6 @@ A resource on computational and artificial life research...
 [Simple swarms](swarms/simple-swarm)  
 [Controlling swarms](swarms/controlling-swarms)  
 
+# [](#graphics)Graphics
 
+[funimage.figure](graphics/funimage-figure)  
