@@ -4,14 +4,11 @@ sudo: false
 rvm: 2.2
 dist: trusty
 
-install: script/bootstrap
-script: script/cibuild
-
-
 jobs:
   include:
-    - script: echo "Running unit tests (1)"
-    - script: echo "Running unit tests (2)"
+    - script:
+        script/bootstrap
+    	script/cibuild
     - stage: GitHub Release
       script: skip
       deploy:
