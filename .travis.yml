@@ -8,7 +8,7 @@ jobs:
   include:
     - script:
         script/bootstrap
-    	script/cibuild
+        script/cibuild
     - stage: GitHub Release
       script: skip
       deploy:
