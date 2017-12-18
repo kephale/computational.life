@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img class="alignnone size-full wp-image-116" src="https://computationaldotlife.files.wordpress.com/2017/01/moire-effect-animated1.gif" alt="moire-effect-animated" width="500" height="500" />
+<img class="alignnone size-full wp-image-116" src="img/moire-effect-animated1.gif" alt="moire-effect-animated" width="500" height="500" />
 
 Example of Moiré effect. Each frame is a step of rotation.
 
@@ -14,13 +14,13 @@ Second, enable the <a href="https://github.com/funimage/funimage" target="_blank
 
 Third, run the Moiré effect plugin:
 
-<img class="alignnone size-full wp-image-105" src="https://computationaldotlife.files.wordpress.com/2017/01/moire-menu.png" alt="moire-menu.png" width="273" height="62" />
+<img class="alignnone size-full wp-image-105" src="img/moire-menu.png" alt="moire-menu.png" width="273" height="62" />
 
 Enjoy, and if you want to modify the Clojure code <a href="https://github.com/funimage/funimage/blob/master/src/plugins/Scripts/Funimage/Experimental/moire_.clj" target="_blank">it is available in the Funimage repository</a>.
 
 There are many amusing variants of this algorithm that are not designed to explain neural mechanisms, yet produce interesting patterns:
 
-<img class="alignnone  wp-image-80" src="https://computationaldotlife.files.wordpress.com/2017/01/moire-effect-001.png" alt="moire-effect-001" width="290" height="290" /><img class="alignnone  wp-image-114" src="https://computationaldotlife.files.wordpress.com/2017/01/moire-effect-sum.png" alt="moire-effect-sum.gif" width="290" height="290" />
+<img class="alignnone  wp-image-80" src="img/moire-effect-001.png" alt="moire-effect-001" width="290" height="290" /><img class="alignnone  wp-image-114" src="img/moire-effect-sum.png" alt="moire-effect-sum.gif" width="290" height="290" />
 
 (Left) Iteratively take the conjunction of the previous image and its rotation
 (Right) Take the sum of all frames in a Moiré pattern
