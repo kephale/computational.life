@@ -13,7 +13,7 @@ jobs:
     - git config --local user.email "kyle.i.s.harrington@gmail.com"
     - zip -r computational_life_site.zip *
     - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
-    - git push -q https://kephale@github.com/kephale/computational.life --tags
+    - git push -q git@github.com:kephale/computational.life.git --tags
     deploy:
       provider: releases
       api_key:
