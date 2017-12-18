@@ -22,4 +22,3 @@ jobs:
       file: ./*
       on:
         repo: kephale/computational.life
-        tags: true
