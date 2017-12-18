@@ -3,23 +3,24 @@ cache: bundler
 sudo: false
 rvm: 2.2
 dist: trusty
-
 before_deploy:
-  # Set up git user name and tag this commit
-  - git config --local user.name "kephale"
-  - git config --local user.email "kyle.i.s.harrington@gmail.com"
-  - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
-
+- git config --local user.name "kephale"
+- git config --local user.email "kyle.i.s.harrington@gmail.com"
+- git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+- zip -r computational_life_site.zip *
 jobs:
   include:
-    - script:
-        script/bootstrap
-        script/cibuild
-    - stage: GitHub Release
-      script: skip
-      deploy:
-        provider: releases
-        api_key: "$GITHUB_OAUTH_TOKEN"
-        skip_cleanup: true
-#        on:
-#          tags: true
+  - script: script/bootstrap script/cibuild
+  - stage: GitHub Release
+    script: skip
+    deploy:
+      provider: releases
+      api_key: $GITHUB_OAUTH_TOKEN
+      skip_cleanup: true
+deploy:
+  provider: releases
+  api_key:
+    secure: GEWuGxiX7qaLPgxlaAMya33CmxQxxGnZ0YZnY7vjqXGSDSkVtHx1NSbV7YwHshGQGOCiNzxgGQvieYc3va1ALVyVxY7WNlxtEh0AuGIBWKUjCeS0f4E/0XrhHayTU5gp6DVajZVPXgVDjxVjERvcQqCclC8ahvOkzwLZgeJlP9+ralo2HWklVbdWOZKD2BBWOJaRw9JwcsNK4BXLroNqbdi9uQMo7MQGRVtgw0i6veRs6r7d5wHitm8upMRsO0/t8iTXjE4ouKjR5FIPhF0idvETdFCRGujdqrosCKTXTp7er13erNRo+XdQfL3hp6akf29NM+KlwNu0/U94U6s/9r5dveRdaznOGu15rvhLLrL+e0Zgezt3Yw/aZv+HU/rzBkfzFJyjYC+Ac8vU1/tS+gIg3/gUKUS7RbZtEzg5grMBHBoaWgQxgr4DIMTjyk2oU6Rx7EQhNzUZOQkRa9aNcuHNOEKr4GCLqRh1Ua1uY5zhHUKZqlkLEzpFOlFtcrIM1/xBdHufwVnMEVLdo98caSh3vB1c+SzUyhx60VgizXiLEAeQ1heVob7lhhUIRS+fK/LrW8+6FyXevnWwBEiVYRqCOXct9Fz907j1TwPDLM+mJyXvDLloL5y287dn/lgo+E2nZ8hcBaUkceIwsW3xa/uLpOh9vdzv4XWsxOd/le0=
+  file: computational_life_site.zip
+  on:
+    repo: kephale/computational.life
