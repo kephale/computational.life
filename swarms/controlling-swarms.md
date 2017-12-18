@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img class=" size-full wp-image-47 aligncenter" src="https://computationaldotlife.files.wordpress.com/2015/11/demo_gif_001.gif" alt="demo_gif_001" width="320" height="240" />
+<img class=" size-full wp-image-47 aligncenter" src="img/swarm_control_demo_gif_001.gif" alt="demo_gif_001" width="320" height="240" />
 
 Control a 3D swarm with your mouse in Clojure. After cloning and starting this project with your favorite git/Clojure tool, your mouse controls an attractor for the swarm. Move your mouse over the window to reposition the sphere representation of the attractor.
 

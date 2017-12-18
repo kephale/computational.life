@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img class=" size-full wp-image-45 aligncenter" src="https://computationaldotlife.files.wordpress.com/2015/11/simple-swarm_animated.gif" alt="simple-swarm_animated.gif" width="320" height="240" />
+<img class=" size-full wp-image-45 aligncenter" src="img/simple-swarm_animated.gif" alt="simple-swarm_animated.gif" width="320" height="240" />
 
 Swarming and flocking is a fascinating emergent behavior. Agents that follow simple rules, such as stay close to your neighbor (but not too close), can lead to emergent phenomena when many agents are combined together.
 
