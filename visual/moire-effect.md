@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Moire effect"
+post_author: "Harrington, K."
 ---
 
 <img class="alignnone size-full wp-image-116" src="img/moire-effect-animated1.gif" alt="moire-effect-animated" width="500" height="500" />

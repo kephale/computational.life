@@ -1,5 +1,6 @@
 ---
 layout: default
+post_author: "Harrington, K."
 ---
 
 A resource on computational and artificial life research...
