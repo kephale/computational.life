@@ -3,25 +3,21 @@ cache: bundler
 sudo: false
 rvm: 2.2
 dist: trusty
-jobs:
-  include:
-  - script: script/bootstrap script/cibuild
-  - stage: GitHub Release
-    script: skip
-    before_deploy:
-    - git config --local user.name "Kyle Harrington"
-    - git config --local user.email "kyle.i.s.harrington@gmail.com"
-    - zip -r computational_life_site.zip *
-    - go get github.com/aktau/github-release
-    - github-release release --user kephale --repo computational.life --tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)" --name "Computational Life" --description "Computational Life compilation." --pre-release
-    - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
-    - git push -q git@github.com:kephale/computational.life.git --tags    
-    deploy:
-      provider: releases
-      api_key:
-        secure: GEWuGxiX7qaLPgxlaAMya33CmxQxxGnZ0YZnY7vjqXGSDSkVtHx1NSbV7YwHshGQGOCiNzxgGQvieYc3va1ALVyVxY7WNlxtEh0AuGIBWKUjCeS0f4E/0XrhHayTU5gp6DVajZVPXgVDjxVjERvcQqCclC8ahvOkzwLZgeJlP9+ralo2HWklVbdWOZKD2BBWOJaRw9JwcsNK4BXLroNqbdi9uQMo7MQGRVtgw0i6veRs6r7d5wHitm8upMRsO0/t8iTXjE4ouKjR5FIPhF0idvETdFCRGujdqrosCKTXTp7er13erNRo+XdQfL3hp6akf29NM+KlwNu0/U94U6s/9r5dveRdaznOGu15rvhLLrL+e0Zgezt3Yw/aZv+HU/rzBkfzFJyjYC+Ac8vU1/tS+gIg3/gUKUS7RbZtEzg5grMBHBoaWgQxgr4DIMTjyk2oU6Rx7EQhNzUZOQkRa9aNcuHNOEKr4GCLqRh1Ua1uY5zhHUKZqlkLEzpFOlFtcrIM1/xBdHufwVnMEVLdo98caSh3vB1c+SzUyhx60VgizXiLEAeQ1heVob7lhhUIRS+fK/LrW8+6FyXevnWwBEiVYRqCOXct9Fz907j1TwPDLM+mJyXvDLloL5y287dn/lgo+E2nZ8hcBaUkceIwsW3xa/uLpOh9vdzv4XWsxOd/le0=
-      file: computational_life_site.zip
-      on:
-        repo: kephale/computational.life
+
+before_deploy:
+  - script/bootstrap
+  - script/cibuild
+  - zip computational_life_site.zip *
+
+deploy:
+  provider: releases
+  api_key:
+    secure: GEWuGxiX7qaLPgxlaAMya33CmxQxxGnZ0YZnY7vjqXGSDSkVtHx1NSbV7YwHshGQGOCiNzxgGQvieYc3va1ALVyVxY7WNlxtEh0AuGIBWKUjCeS0f4E/0XrhHayTU5gp6DVajZVPXgVDjxVjERvcQqCclC8ahvOkzwLZgeJlP9+ralo2HWklVbdWOZKD2BBWOJaRw9JwcsNK4BXLroNqbdi9uQMo7MQGRVtgw0i6veRs6r7d5wHitm8upMRsO0/t8iTXjE4ouKjR5FIPhF0idvETdFCRGujdqrosCKTXTp7er13erNRo+XdQfL3hp6akf29NM+KlwNu0/U94U6s/9r5dveRdaznOGu15rvhLLrL+e0Zgezt3Yw/aZv+HU/rzBkfzFJyjYC+Ac8vU1/tS+gIg3/gUKUS7RbZtEzg5grMBHBoaWgQxgr4DIMTjyk2oU6Rx7EQhNzUZOQkRa9aNcuHNOEKr4GCLqRh1Ua1uY5zhHUKZqlkLEzpFOlFtcrIM1/xBdHufwVnMEVLdo98caSh3vB1c+SzUyhx60VgizXiLEAeQ1heVob7lhhUIRS+fK/LrW8+6FyXevnWwBEiVYRqCOXct9Fz907j1TwPDLM+mJyXvDLloL5y287dn/lgo+E2nZ8hcBaUkceIwsW3xa/uLpOh9vdzv4XWsxOd/le0=
+  file: computational_life_site.zip
+  skip_cleanup: true
+  on:
+    repo: kephale/computational.life
+    tags: true
 dd:
   secure: WG/FmntC+TqGOJjBK/81E/9MPegoR8pYowiNnLzMb7M2+oeFozVnC11eqwS5k6LjXb8afE8wsEaBy5FMDIC0usWuyIk7Tt0mtPPaVE66YRIsvAuspi1/DpuaYQWMac/J/Iptg0L3oFCHfGcwlMm4jCEL+52TtqTwuDY/IgehAs/VtW4T9B42OS/5KjxArHUR4kF7mzJ3x+nNABpBLaShmt3hw/gVJ9w3s2z6tbs/4Nfs2KWGsL63WWggS1hSDC/7F7/j2cmzQfFMap4O8dGpHnzT/3F4Bf6LqhJPNjgw4aBJP4w8IJTfeX3WoKbvJhe4fw1D1yZcPb029Eo3YsPIOiU+UhNiv1dqCWHbkv7qEDwjeTlwW5Mc0aaW6L2PDoSBbsMfnxxCNAUku3DsiL1oZd3yRBvMkbkDGXNYM9vzhAMEE031sxLEJClFugKtoYzI2kit7eom27kugY0DjkanY2UwDcOy0thfccxCWxUa1scThTJ0RGQ11cszavbPz6U10iNPx1MvkLlj6oEipgnZYgTsoEzfNJmzMgvueDx5IaPx5Fv8t5E47QSC0tJ/NL7LRncdQtyBoJmVzfAgA/d/gvfTptfjneQy3b8s9+QlJQ3D3sV/PIOy6vWmEBu3G4w+xQlCNKDxzhwOGhM08Mrs0+pDmK0xFmdpsEt2SU4ttZY=
+
