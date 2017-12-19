@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Controlling swarms"
 ---
 
 <img class=" size-full wp-image-47 aligncenter" src="img/swarm_control_demo_gif_001.gif" alt="demo_gif_001" width="320" height="240" />

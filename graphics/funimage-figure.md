@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "FunImage figure"
 ---
 
 <p class="p1">Some of you may know that I am not a fan of doing things manually, sometimes to the point of spending many-many factors more time on automation than would be necessary to manually complete a task. Luckily this is not one of those cases.</p>

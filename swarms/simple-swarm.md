@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Simple swarm"
 ---
 
 <img class=" size-full wp-image-45 aligncenter" src="img/simple-swarm_animated.gif" alt="simple-swarm_animated.gif" width="320" height="240" />
