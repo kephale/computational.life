@@ -12,8 +12,10 @@ jobs:
     - git config --local user.name "Kyle Harrington"
     - git config --local user.email "kyle.i.s.harrington@gmail.com"
     - zip -r computational_life_site.zip *
+    - go get github.com/aktau/github-release
+    - github-release release --user kephale --repo computational.life --tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)" --name "Computational Life" --description "Computational Life compilation." --pre-release
     - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
-    - git push -q git@github.com:kephale/computational.life.git --tags
+    - git push -q git@github.com:kephale/computational.life.git --tags    
     deploy:
       provider: releases
       api_key:
