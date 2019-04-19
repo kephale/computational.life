@@ -5,6 +5,10 @@ post_author: "Harrington, K."
 
 A resource on computational and artificial life research...
 
+# [](#experimental)Experimental
+
+[Reading/converting PLW data logger output](experimental/plw-data-logger)
+
 # [](#swarms)Swarms
 
 [Simple swarms](swarms/simple-swarm)  
@@ -17,4 +21,3 @@ A resource on computational and artificial life research...
 # [](#visual)Visual
 
 [Moire effect](visual/moire-effect)
-
