@@ -1,0 +1,10 @@
+* DONE About                                                   :blog:lb_tags:
+CLOSED: [2021-05-24 Mon 09:54]
+:PROPERTIES:
+:ID: 2021-05-24-about
+:CREATED:  [2021-05-24 Mon 09:54]
+:END:
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-05-24 Mon 09:54]
+:END:
+

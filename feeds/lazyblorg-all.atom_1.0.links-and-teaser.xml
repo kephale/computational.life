@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:thr="http://purl.org/syndication/thread/1.0"
+      xml:lang="en-us">
+  <link rel="self" href="http://computational.life/feeds/lazyblorg-all.atom_1.0.links-and-teaser.xml" />
+  <title type="text">computational.life</title>
+  <id>http://computational.life/</id>
+  <link href="http://computational.life" />
+  <icon>/favicon.ico</icon>
+  <updated>2021-05-24T10:45:09+01:00</updated>
+  <author>
+    <name>Kyle Harrington</name>
+  </author>
+  <subtitle type="text">computational.life</subtitle>
+  <rights>All content written by Kyle Harrington</rights>
+  <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">About</title>
+    <link href='http://computational.life/2021/05/24/about' />
+    <published>2021-05-24T09:54:00+01:00</published>
+    <updated>2021-05-24T09:54:00+01:00</updated>
+    <category scheme='http://computational.life/tags/org' term='org' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+This is the about page.
+
+</p>
+</div>
+    </summary>
+    <id>http://computational.life/2021/05/24/about-from-feed-with-teaser</id>
+</entry></feed>
