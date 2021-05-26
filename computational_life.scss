@@ -11,9 +11,11 @@ $verylightgray: #f9f9f9;
 $lightgray: #e0e0e0;
 $gray: #7e7e7e; /* replacing #555 */
 $darkgray: #252525;
+$black: #000000;
 
 $darkblue: #2222ff;
 $darkaquablue: #004977;
+$lightaquablue: #a1c7cb;
 
 $lightyellow: #fffff0;
 
@@ -24,8 +26,8 @@ header {
 
 
 body {
-    background: $lightyellow;
-    color: $darkgray;
+    background: $black;
+    color: $verylightgray;
     /* font-family:Trebuchet MS,Verdana,Helvetica,sans-serif; */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-top: 1em;
@@ -46,7 +48,7 @@ a {
     color: $gray
 }
 @mixin minimum-contrast {
-    color: $lightgray
+    color: $darkgray
 }
 .minor-contrast {
     @include minor-contrast
@@ -238,7 +240,7 @@ a {
     padding-right: 1em;*/
     border-radius: 1em;
     box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
-    background: $verylightgray;
+    background: $darkgray;
     margin-bottom: 20px;
 /*    margin-left: -2em;*/
 }
@@ -318,10 +320,10 @@ a {
 	    -moz-border-radius: 2px;
 	    -webkit-border-radius: 2px;
 	    border-radius: 2px;
-	    background: $white;
-	    -moz-box-shadow: -1px -1px 2px $darkaquablue;
-	    -webkit-box-shadow: -1px -1px 2px $darkaquablue;
-	    box-shadow: -1px -1px 2px $darkaquablue;
+	    background: $black;
+	    -moz-box-shadow: -1px -1px 2px $lightaquablue;
+	    -webkit-box-shadow: -1px -1px 2px $lightaquablue;
+	    box-shadow: -1px -1px 2px $lightaquablue;
 	}
 	&:hover {
 	    background: $gray;
@@ -376,7 +378,7 @@ a {
     margin-right: auto;
     /*padding-top: 2em;*/
 
-    tr:nth-child(even) {background-color: $verylightgray};
+    tr:nth-child(even) {background-color: $darkgray};
 
     /*tr:hover {
 	color: $lightyellow;
@@ -384,7 +386,7 @@ a {
     }*/
 
     th {
-	background-color: $darkgray;
+	background-color: $verylightgray;
 	color: white;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
@@ -414,7 +416,7 @@ a {
 }
 
 .section-title {
-    color: $darkgray;
+    color: $lightgray;
     margin-left: 1em;
 }
 
@@ -434,7 +436,7 @@ blockquote {
 	content: '\201C';
 	margin: 1em -0.15em 1em -0.15em;
 	/*color:#33a8e5;*/
-	color: $lightgray;
+	color: $darkgray;
 	/* light-gray */
 	padding: 0.15em -0.5em -0.5em -0.5em;
 	font-size: 60px;
@@ -451,7 +453,7 @@ blockquote {
 .example_code {
     @extend .middle_section_narrow;
     width: auto;
-    background-color: $white;
+    background-color: $darkgray;
     padding: 5px;
     border: 1px solid $lightgray;
     border-radius: 3px;
@@ -508,7 +510,7 @@ figcaption {
     margin-right: auto;
     padding-top: 7em;
     text-align: center;
-    color: $darkgray;
+    color: $lightgray;
     font-size: 80%;
 }
 
@@ -546,7 +548,7 @@ footer {
     padding: 0.1em;
     border-radius: 1em;
     box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
-    background: $verylightgray;
+    background: $darkgray;
     text-align: center;
     color: gray;
     font-size: 80%;
@@ -663,8 +665,8 @@ footer {
     margin-right: auto;
 
     hr {
-	border-color: $lightgray;
-	color: $lightgray; border-style:solid;
+	border-color: $darkgray;
+	color: $darkgray; border-style:solid;
 	display: block;
 	height: 2px;
     }
