@@ -1,0 +1,31 @@
+CLOSED: [2021-05-26 Wed 11:35]
+:PROPERTIES:
+:CREATED:  <2021-05-26 Wed 11:31>
+:ID:       2021-05-26-sciview-example
+:END:
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-05-26 Wed 11:35]
+- State "NEXT"       from              [2021-05-26 Wed 11:31]
+:END:
+
+Here is an example of running sciview inside org-mode and generating/saving a screenshot.
+
+#+INCLUDE: ~/org/writing/config/sciview_ipython.org
+
+#+begin_src ipython :session :kernel sciview :results file :exports none
+  # Launch sciview
+  sv = SciView.create()
+
+  # Add a sphere to the scene
+  sphere = sv.addSphere(Vector3f(0.0, 0.0, 0.0), 0.5, ColorRGB(255, 0, 0))
+
+  fname=os.path.expanduser('~/git/kephale/computational.life/images/sciview_screenshot.png')
+  sv.takeScreenshot(fname, JBoolean(True))
+
+  sv.closeWindow()
+
+  fname
+#+end_src
+
+#+RESULTS:
+[[file:# Out[4]:
