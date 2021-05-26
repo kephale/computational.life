@@ -7,7 +7,7 @@
   <id>http://computational.life/</id>
   <link href="http://computational.life" />
   <icon>/favicon.ico</icon>
-  <updated>2021-05-26T16:04:32+01:00</updated>
+  <updated>2021-05-26T16:48:46+01:00</updated>
   <author>
     <name>Kyle Harrington</name>
   </author>
@@ -31,7 +31,7 @@ Here is an example of running sciview inside org-mode and generating/saving a sc
 
 
 <figure class="image-center">
-<img src="http://computational.life/2021/05/26/sciview-example/http://computational.life/2021/05/26/sciview-example/2021-05-26T11:53:31.626570_sciview_screenshot%20-%20scaled%20width%20300.png" alt="Screenshot from sciview Tree" width="300" />
+<img src="http://computational.life/2021/05/26/sciview-example/http://computational.life/2021/05/26/sciview-example/2021-05-26T11:53:31.626570_sciview_screenshot%20-%20scaled%20width%20500.png" alt="Screenshot from sciview Tree" width="500" />
 <figcaption>Screenshot from sciview</figcaption>
 </figure>
 

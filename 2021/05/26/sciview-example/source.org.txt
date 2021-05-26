@@ -11,7 +11,7 @@ CLOSED: [2021-05-26 Wed 11:35]
 Here is an example of running sciview inside org-mode and generating/saving a screenshot.
 
 #+CAPTION: Screenshot from sciview
-#+ATTR_HTML: :alt Screenshot from sciview Tree :align center :width 300
+#+ATTR_HTML: :alt Screenshot from sciview Tree :align center :width 500
 [[tsfile:2021-05-26T11:53:31.626570_sciview_screenshot.png][2021-05-26T11:53:31.626570_sciview_screenshot.png]]
 
 #+INCLUDE: ~/org/writing/config/sciview_ipython.org
