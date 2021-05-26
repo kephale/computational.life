@@ -321,7 +321,7 @@ a {
   font-size: 13px;
   margin-left: 20px;
   padding: 0 10px 0 12px;
-  background: #2222ff;
+  background: #add8e6;
   color: #fff;
   text-decoration: none;
   -moz-border-radius-bottomright: 4px;
@@ -339,7 +339,7 @@ a {
   left: -12px;
   width: 0;
   height: 0;
-  border-color: transparent #2222ff transparent transparent;
+  border-color: transparent #add8e6 transparent transparent;
   border-style: solid;
   border-width: 12px 12px 12px 0;
 }
@@ -413,7 +413,7 @@ a {
 }
 .common-article th, .entry-page-article th {
   background-color: #f9f9f9;
-  color: white;
+  color: black;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }

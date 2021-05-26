@@ -13,6 +13,7 @@ $gray: #7e7e7e; /* replacing #555 */
 $darkgray: #252525;
 $black: #000000;
 
+$lightblue: #add8e6;
 $darkblue: #2222ff;
 $darkaquablue: #004977;
 $lightaquablue: #a1c7cb;
@@ -288,7 +289,7 @@ a {
 	font-size: 13px;
 	margin-left: 20px;
 	padding: 0 10px 0 12px;
-	background: $darkblue;
+	background: $lightblue;
 	color: $white;
 	text-decoration: none;
 	-moz-border-radius-bottomright: 4px;
@@ -305,7 +306,7 @@ a {
 	    left: -12px;
 	    width: 0;
 	    height: 0;
-	    border-color: transparent $darkblue transparent transparent;
+	    border-color: transparent $lightblue transparent transparent;
 	    border-style: solid;
 	    border-width: 12px 12px 12px 0;
 	}
@@ -387,7 +388,7 @@ a {
 
     th {
 	background-color: $verylightgray;
-	color: white;
+	color: black;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
     }
