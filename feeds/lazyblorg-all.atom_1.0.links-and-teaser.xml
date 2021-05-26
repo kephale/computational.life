@@ -7,7 +7,7 @@
   <id>http://computational.life/</id>
   <link href="http://computational.life" />
   <icon>/favicon.ico</icon>
-  <updated>2021-05-26T15:53:34+01:00</updated>
+  <updated>2021-05-26T15:56:43+01:00</updated>
   <author>
     <name>Kyle Harrington</name>
   </author>
@@ -44,10 +44,7 @@ Here is an example of running sciview inside org-mode and generating/saving a sc
 
 
 	  <div class="example_code">
-	  <pre>
-  import datetime
-
-
+	  <pre>  import datetime
 
   # Launch sciview
   sv = SciView.create()
@@ -55,12 +52,12 @@ Here is an example of running sciview inside org-mode and generating/saving a sc
   # Add a sphere to the scene
   sphere = sv.addSphere(Vector3f(0.0, 0.0, 0.0), 0.5, ColorRGB(255, 0, 0))
 
-  fname=os.path.expanduser('~/blog_images/%s_sciview_screenshot.png' % (datetime.datetime.now().isoformat()))
+  # Save screenshot
+  fname=os.path.expanduser('~/blog_images/%s_sciview_screenshot.png' %
+                           (datetime.datetime.now().isoformat()))
   sv.takeScreenshot(fname, JBoolean(True))
 
-  sv.closeWindow()
-
-  # fname	  </pre>
+  sv.closeWindow()	  </pre>
     </div>
 </div>
     </summary>
