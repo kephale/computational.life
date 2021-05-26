@@ -110,29 +110,30 @@ Here is an example of running sciview inside org-mode and generating/saving a sc
 </p>
 
 	  <div class="example_code">
-	  <pre>  # Launch sciview
+	  <pre>
+  import datetime
+
+
+
+  # Launch sciview
   sv = SciView.create()
 
   # Add a sphere to the scene
   sphere = sv.addSphere(Vector3f(0.0, 0.0, 0.0), 0.5, ColorRGB(255, 0, 0))
 
-  fname=os.path.expanduser('~/git/kephale/computational.life/images/sciview_screenshot.png')
+  fname=os.path.expanduser('~/blog_images/%s_sciview_screenshot.png' % (datetime.datetime.now().isoformat()))
   sv.takeScreenshot(fname, JBoolean(True))
 
   sv.closeWindow()
 
-  fname	  </pre>
+  # fname	  </pre>
     </div>
 
 <p>
 
-#+RESULTS: [[file:# Out[4]:
+<a href="./images/sciview_screenshot.png'">./images/sciview_screenshot.png'</a>
 
 </p>
-
-	  <div class="example_code">
-	  <pre> 'https://computational.life/images/sciview_screenshot.png']]	  </pre>
-    </div>
 
 
   </article>
