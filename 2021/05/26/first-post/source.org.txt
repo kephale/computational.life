@@ -1,0 +1,10 @@
+CLOSED: [2021-05-26 Wed 11:15]
+:PROPERTIES:
+:ID:       2021-05-26-first-post
+:CREATED:  [2021-05-26 Wed 11:15]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-05-26 Wed 11:15]
+:END:
+
+I've finally got my emacs setup for proper blog posting.

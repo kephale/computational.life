@@ -1,4 +1,4 @@
-* DONE About                                                   :blog:org:
+** DONE About                                                     :blog:org:
 CLOSED: [2021-05-24 Mon 09:54]
 :PROPERTIES:
 :ID: 2021-05-24-about
@@ -7,4 +7,6 @@ CLOSED: [2021-05-24 Mon 09:54]
 :LOGBOOK:
 - State "DONE"       from "NEXT"       [2021-05-24 Mon 09:54]
 :END:
+
+This is the about page.
 
