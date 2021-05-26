@@ -1,0 +1,90 @@
+(base) kharrin@cl-imaging01:~/org$ ls
+ 0_Accomplishments_MDC.org    lifelongml.org    paper-template      sciview.org
+ 0_Accomplishments_MDC.org~   lifelongml.org~   personal.org        sciview.org~
+ bibliography.bib             mdc.org           personal.org~       team_meetings.org
+ bibliography.bib~            mdc.org~          preeclampsia.org~   team_meetings.org~
+ blog.org                     meetings.org      presentations       testdata
+ blog.org~                    meetings.org~     projects.org        todo.org
+ data                         mobile.org        projects.org~       views
+ glam.org                     mobile.org~       random.org          writing
+ glam.org~                    old_notes         recommendations    '#zz_test.org#'
+ hip.org                      papers.org        refile.org          zz_test.org~
+ hip.org~                     papers.org~       refile.org~
+(base) kharrin@cl-imaging01:~/org$ cd ~/git/kephale/computational.life/
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ ls
+2016  CNAME                   computational_life.scss  images      tags
+2021  computational_life.css  feeds                    index.html  testdata
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ 
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ mkdir ~/Dropbox/images
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ mkdir ~/Dropbox/blog_images
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ ln -s /home/kharrin/Dropbox/blog_images/ /home/kharrin/blog_images
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ ls ~/blog_images/
+2021-05-26T11:50:47.207961_sciview_screenshot.png  2021-05-26T11:53:31.626570_sciview_screenshot.png
+2021-05-26T11:53:12.297239_sciview_screenshot.png
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ ~/kephale/Memacs/bin/memacs_filenametimestamps.py \
+   --folder "~/blog_images/" \
+   -o "~/org/memacs.org_archive"
+
+> > bash: /home/kharrin/kephale/Memacs/bin/memacs_filenametimestamps.py: No such file or directory
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ (base) kharrin@cl-imaging01:~/git/kephale/computational.life$ ls ~/git/
+AliaksandrSiarohin               dpoulopoulos  jonklein        MouseLand        scimagine
+awslabs                          funimagej     juglab          novoid           sciview-djl
+aws-samples                      gilch         KawashimaLab    Pidgeot          sciview-webcam
+bigdataviewer                    hissp-mode    kephale         PreibischLab
+bioimage-io                      hylang        leoguignard     saalfeldlab
+CASUS_ATM_MODELING               ida-mdc       morphogenetics  scenerygraphics
+ComputationalAndPhysicalSystems  imagej        morphonets      scijava
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ 
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ ~/novoid/Memacs/bin/memacs_filenametimestamps.py \
+   --folder "~/blog_images/" \
+   -o "~/org/memacs.org_archive"
+
+> > bash: /home/kharrin/novoid/Memacs/bin/memacs_filenametimestamps.py: No such file or directory
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ (base) kharrin@cl-imaging01:~/git/kephale/computational.life$ 
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ 
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ ~/git/novoid/Memacs/bin/memacs_filenametimestamps.py \
+   --folder "~/blog_images/" \
+   -o "~/org/memacs.org_archive"
+
+> > Traceback (most recent call last):
+  File "/home/kharrin/git/novoid/Memacs/bin/memacs_filenametimestamps.py", line 5, in <module>
+    from memacs.filenametimestamps import FileNameTimeStamps
+ModuleNotFoundError: No module named 'memacs'
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ (base) kharrin@cl-imaging01:~/git/kephale/computational.life$ 
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ 
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ ls ~/git/novoid/Memacs/ 
+bin   INSTALL.org  Makefile  README.org  requirements.txt       setup.py  tox.ini
+docs  license.txt  memacs    README.txt  run_all_unit_tests.sh  tmp
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ ~/git/novoid/Memacs/bin/memacs_filenametimestamps.py \
+   --folder "~/blog_images/" \
+   -o "~/org/memacs.org_archive"
+
+> > Traceback (most recent call last):
+  File "/home/kharrin/git/novoid/Memacs/bin/memacs_filenametimestamps.py", line 5, in <module>
+    from memacs.filenametimestamps import FileNameTimeStamps
+ModuleNotFoundError: No module named 'memacs'
+(base) kharrin@cl-imaging01:~/git/kephale/computational.life$ (base) kharrin@cl-imaging01:~/git/kephale/computational.life$ conda activate lazyblorg
+(lazyblorg) kharrin@cl-imaging01:~/git/kephale/computational.life$ ~/git/novoid/Memacs/bin/memacs_filenametimestamps.py \
+   --folder "~/blog_images/" \
+   -o "~/org/memacs.org_archive"
+
+> > usage: memacs_filenametimestamps.py [-h] [--version] [-v] [-s] [-o FILE] [-a] [-t TAG]
+                                    [--autotagfile FILE] [--number-entries NUMBER_ENTRIES]
+                                    [--columns-header STRING] [--custom-header STRING]
+                                    [--add-to-time-stamps STRING] [--inactive-time-stamps]
+                                    [-f FILENAMETIMESTAMPS_FOLDER] [-x EXCLUDE_FOLDER]
+                                    [--filelist FILELIST] [--ignore-non-existing-items] [-l]
+                                    [--skip-file-time-extraction] [--force-file-date-extraction]
+                                    [--skip-files-with-no-or-wrong-timestamp] [--omit-drawers]
+memacs_filenametimestamps.py: error: Output file path(~/org/memacs.org_archive) does not exist!
+(lazyblorg) kharrin@cl-imaging01:~/git/kephale/computational.life$ (lazyblorg) kharrin@cl-imaging01:~/git/kephale/computational.life$ python 
+Python 3.8.10 | packaged by conda-forge | (default, May 11 2021, 07:01:05) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import memacs
+>>> 
+(lazyblorg) kharrin@cl-imaging01:~/git/kephale/computational.life$ touch ~/org/memacs.org_archive
+(lazyblorg) kharrin@cl-imaging01:~/git/kephale/computational.life$ ls ~/org/memacs.org_archive 
+/home/kharrin/org/memacs.org_archive
+(lazyblorg) kharrin@cl-imaging01:~/git/kephale/computational.life$ mkdir ../lazyblorg/imagecache
+(lazyblorg) kharrin@cl-imaging01:~/git/kephale/computational.life$ 
