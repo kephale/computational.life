@@ -12,7 +12,7 @@ Here is an example of running sciview inside org-mode and generating/saving a sc
 
 #+INCLUDE: ~/org/writing/config/sciview_ipython.org
 
-#+begin_src ipython :session :kernel sciview :results none :exports none
+#+BEGIN_SRC ipython :session :kernel sciview :results none :exports none
 
   import datetime
 
@@ -30,7 +30,7 @@ Here is an example of running sciview inside org-mode and generating/saving a sc
   sv.closeWindow()
 
   # fname
-#+end_src
+#+END_SRC
 
 #+CAPTION: Screenshot from sciview
 #+ATTR_HTML: :alt Screenshot from sciview Tree :align right :width 300
