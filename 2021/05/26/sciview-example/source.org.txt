@@ -33,3 +33,4 @@ Here is an example of running sciview inside org-mode and generating/saving a sc
 #+end_src
 
 #+CAPTION: Screenshot from sciview
+[[tsfile:2021-05-26T11:53:31.626570_sciview_screenshot.png][2021-05-26T11:53:31.626570_sciview_screenshot.png]]
