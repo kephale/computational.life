@@ -240,7 +240,7 @@ a {
     padding-bottom: 1em;
     padding-right: 1em;*/
     border-radius: 1em;
-    box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 2px 0 rgba(81, 4, 212, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
     background: $darkgray;
     margin-bottom: 20px;
 /*    margin-left: -2em;*/
@@ -431,7 +431,7 @@ blockquote {
     background: $white;
     padding: 1em;
     border-radius: 1em;
-    box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 2px 0 rgba(81, 4, 212, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
     &:before {
 	/* http://text.jpatch.net/2010/09/css2-no-image-quotation-marks-in-blockquotes/ */
 	content: '\201C';
@@ -548,7 +548,7 @@ footer {
     @extend .middle_section_wide;
     padding: 0.1em;
     border-radius: 1em;
-    box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 2px 0 rgba(81, 4, 212, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
     background: $darkgray;
     text-align: center;
     color: gray;
@@ -648,7 +648,7 @@ footer {
     margin-bottom: 1.5em;
     border-radius: 0.2em;
 /*    box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);*/
-    box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 2px 0 rgba(81, 4, 212, 0.7), -5px -4px 15px rgba(0, 0, 0, 0.3);
     background: $darkgray;
     .entry-page-article-tags {
 	margin: -1.5em -1em 0px 0px;
