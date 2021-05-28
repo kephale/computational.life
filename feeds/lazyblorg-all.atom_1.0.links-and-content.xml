@@ -7,7 +7,7 @@
   <id>http://computational.life/</id>
   <link href="http://computational.life" />
   <icon>/favicon.ico</icon>
-  <updated>2021-05-28T18:02:40+01:00</updated>
+  <updated>2021-05-28T18:06:37+01:00</updated>
   <author>
     <name>Kyle Harrington</name>
   </author>
@@ -32,7 +32,7 @@ A while back Curtis Rueden convinced me to organize my git repositories in a str
 
 <p>
 
-`&lt;git root&gt;/&lt;organization&gt;/&lt;repository&gt;`
+&lt;git root&gt;/&lt;organization&gt;/&lt;repository&gt;
 
 </p>
 
@@ -56,7 +56,7 @@ A while back Curtis Rueden convinced me to organize my git repositories in a str
 
 <p>
 
-`&lt;git root&gt;/&lt;organization&gt;/&lt;repository&gt;`
+&lt;git root&gt;/&lt;organization&gt;/&lt;repository&gt;
 
 </p>
 
