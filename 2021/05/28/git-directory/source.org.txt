@@ -16,3 +16,5 @@ I finally got around to writing a script to archive this directory such that I c
 
 #+BEGIN_EXPORT HTML
 <script src="https://gist.github.com/kephale/1ec0b33c8af121d7e0a6223d55800943.js"></script>
+#+END_EXPORT
+
