@@ -7,13 +7,44 @@
   <id>http://computational.life/</id>
   <link href="http://computational.life" />
   <icon>/favicon.ico</icon>
-  <updated>2021-05-28T18:37:42+01:00</updated>
+  <updated>2021-05-28T18:38:28+01:00</updated>
   <author>
     <name>Kyle Harrington</name>
   </author>
   <subtitle type="text">computational.life</subtitle>
   <rights>All content written by Kyle Harrington</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Example neurodevelopment simulation video</title>
+    <link href='http://computational.life/2021/05/28/snt-single-neuron' />
+    <published>2021-05-28T18:34:00+01:00</published>
+    <updated>2021-05-28T18:34:00+01:00</updated>
+    <category scheme='http://computational.life/tags/SNT' term='SNT' />
+    <category scheme='http://computational.life/tags/sciview' term='sciview' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+This is from work that I primarily did back when I was at HHMI Janelia in 2018-2019, but kept poking at for some time after that. This is based on the work we did in the <a href="https://www.nature.com/articles/s41592-021-01105-7">SNT paper</a>. The rendering itself is done in sciview. What you are seeing is an agent-based model of a neurodevelopment simulation (based on Cx3D) growing in an environment defined by an image. Since I designed this to work with SNT and ImageJ, it is completely possible to load a microscopy image in and run a similar simulation.
+
+</p>
+
+<iframe src="https://drive.google.com/file/d/1dNvp1IskWTx0PWq-P3X0dYr1OUKOXPFc/preview" width="640" height="480"></iframe></div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+This is from work that I primarily did back when I was at HHMI Janelia in 2018-2019, but kept poking at for some time after that. This is based on the work we did in the <a href="https://www.nature.com/articles/s41592-021-01105-7">SNT paper</a>. The rendering itself is done in sciview. What you are seeing is an agent-based model of a neurodevelopment simulation (based on Cx3D) growing in an environment defined by an image. Since I designed this to work with SNT and ImageJ, it is completely possible to load a microscopy image in and run a similar simulation.
+
+</p>
+
+<iframe src="https://drive.google.com/file/d/1dNvp1IskWTx0PWq-P3X0dYr1OUKOXPFc/preview" width="640" height="480"></iframe>
+      </div>
+    </content>
+    <id>http://computational.life/2021/05/28/snt-single-neuron-from-feed-with-content</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Handling a git root directory</title>
