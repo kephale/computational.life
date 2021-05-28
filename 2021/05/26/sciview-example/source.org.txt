@@ -32,3 +32,4 @@ Here is an example of running sciview inside org-mode and generating/saving a sc
 
   sv.closeWindow()
 #+END_SRC
+
