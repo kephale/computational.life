@@ -1,0 +1,45 @@
+CLOSED: [2021-06-04 Fri 11:31]
+:PROPERTIES:
+:CREATED:  <2021-06-04 Fri 11:07>
+:ID:       2021-06-04-emacs-setup
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-06-04 Fri 11:31]
+- State "TODO"       from              [2021-06-04 Fri 11:07]
+:END:
+
+I'm collecting some highlights of my emacs setup so I sound less like a crazy emacs person trying to convert other scientist.
+
+This setup replaced my previous setup which involved:
++ Google Keep for TODOs and random notes
++ a Dropbox directory of markdown files with longer form notes from meetings and other random notes
++ a directory of Jupyter notebook files + git repositories of notebooks (I do still use some of these for collaborative work)
+
+It also enabled some new features:
++ autogenerating a lists of what I think folks in the group are doing (I've used Jira but it led to too much focus on Jira organization instead of the actual work)
++ trivially working with remote files thanks to `tramp`
++ other things that will come to mind in the future and I will update as they do
+
+The emacs config consists of:
++ a `.emacs` config, and `.emacs.d` config directory stored on Dropbox for multi-machine config
++ Straight package manager, this installs emacs packages from git repositories so they are more reproducible
++ helm, for easier autocompletion of *many* things not just files and methods
++ org-mode, this replaces most of my markdown usage, Google Keep usage, and some of my Jupyter notebook usage (requires ob-ipython)
++ org-ref, for bibliography management in org-mode
++ ob-ipython, for ipython usage in org-babel/org-mode, which is the key to replacing Jupyter notebook usage with org-mode
++ cider, for interactive Clojure coding, but this one I've used for many years
++ magit, for really easy git repo management. I never used to be good at memorizing git subcommands and I still am not, but that doesn't matter because magit makes it quite easy.
++ treemacs, this was nice for transition purposes, it makes it easy to browse directories like one is used to with normal GUI applications, but in practice it is easier to use helm
++ hydra, this makes it easy to define custom commands/shortcuts for potentially complex things that I do frequently (e.g. generate and upload a blog in 1 command, load a set of pages in my browser, run some shell commands, toggle some org mode evaluation features)
++ company-mode, I forgot what this does but it is useful
++ yapfify, I use this to automatically format my Python code to specs whenever I save a Python file
++ elpy, this gives you autocompletion for python functions when you're typing. It makes emacs as convenient as PyCharm
++ company-jedi, useful for python
++ company-anaconda, useful for python
++ ein, this is the way to directly use notebooks in emacs. In practice I found it to be more productive to just use org-mode + ob-ipython
++ markdown-mode, because I still need to write markdown
++ flycheck, automatic syntax checking
++ org-re-reveal, for doing reveal.js presentations with org-mode
++ helm-bibtexkey, for easily searching popular sites like arxiv and scholar for papers and importing them into your bib file (also for quick searches of your bib file)
+
+Other useful tools:

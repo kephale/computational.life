@@ -54,10 +54,11 @@
      <li>Top <a href="//computational.life/tags/">tags</a>:
          <ul class="top-tags-list">
               
-              <li><a class="usertag" href="//computational.life/tags/org">org</a> (2)</li>
+              <li><a class="usertag" href="//computational.life/tags/org">org</a> (3)</li>
               <li><a class="usertag" href="//computational.life/tags/sciview">sciview</a> (2)</li>
               <li><a class="usertag" href="//computational.life/tags/git">git</a> (1)</li>
               <li><a class="usertag" href="//computational.life/tags/SNT">SNT</a> (1)</li>
+              <li><a class="usertag" href="//computational.life/tags/emacs">emacs</a> (1)</li>
          </ul></li>
      </ul>
   </div>
@@ -88,8 +89,9 @@
 	    <ul>
 
 <li><a href="//computational.life/tags/SNT/" class="tagcloud-usertag tagcloud-size-1 tagcloud-age-0">SNT</a></li>
+<li><a href="//computational.life/tags/emacs/" class="tagcloud-usertag tagcloud-size-1 tagcloud-age-0">emacs</a></li>
 <li><a href="//computational.life/tags/git/" class="tagcloud-usertag tagcloud-size-1 tagcloud-age-0">git</a></li>
-<li><a href="//computational.life/tags/org/" class="tagcloud-usertag tagcloud-size-2 tagcloud-age-0">org</a></li>
+<li><a href="//computational.life/tags/org/" class="tagcloud-usertag tagcloud-size-3 tagcloud-age-0">org</a></li>
 <li><a href="//computational.life/tags/sciview/" class="tagcloud-usertag tagcloud-size-2 tagcloud-age-0">sciview</a></li>
 
 
@@ -103,6 +105,95 @@
 
   </p>
   </div>
+
+
+<article class="entry-page-article">
+	  <aside>
+	    <ul class="entry-page-article-tags">                <li><a class="usertag" href="//computational.life/tags/emacs/">emacs</a></li>
+                <li><a class="usertag" href="//computational.life/tags/org/">org</a></li>
+
+	    </ul>
+	  </aside>
+<h1><a href="2021/06/04/emacs-setup">2021-06-04: My emacs setup</a></h1>
+
+
+<p>
+
+I'm collecting some highlights of my emacs setup so I sound less like a crazy emacs person trying to convert other scientist.
+
+</p>
+
+
+<p>
+
+This setup replaced my previous setup which involved:
+
+</p>
+
+<ul>
+<li>Google Keep for TODOs and random notes</li>
+<li>a Dropbox directory of markdown files with longer form notes from meetings and other random notes</li>
+<li>a directory of Jupyter notebook files + git repositories of notebooks (I do still use some of these for collaborative work)</li>
+</ul>
+
+
+<p>
+
+It also enabled some new features:
+
+</p>
+
+<ul>
+<li>autogenerating a lists of what I think folks in the group are doing (I've used Jira but it led to too much focus on Jira organization instead of the actual work)</li>
+<li>trivially working with remote files thanks to `tramp`</li>
+<li>other things that will come to mind in the future and I will update as they do</li>
+</ul>
+
+
+<p>
+
+The emacs config consists of:
+
+</p>
+
+<ul>
+<li>a `.emacs` config, and `.emacs.d` config directory stored on Dropbox for multi-machine config</li>
+<li>Straight package manager, this installs emacs packages from git repositories so they are more reproducible</li>
+<li>helm, for easier autocompletion of <strong>many</strong> things not just files and methods</li>
+<li>org-mode, this replaces most of my markdown usage, Google Keep usage, and some of my Jupyter notebook usage (requires ob-ipython)</li>
+<li>org-ref, for bibliography management in org-mode</li>
+<li>ob-ipython, for ipython usage in org-babel/org-mode, which is the key to replacing Jupyter notebook usage with org-mode</li>
+<li>cider, for interactive Clojure coding, but this one I've used for many years</li>
+<li>magit, for really easy git repo management. I never used to be good at memorizing git subcommands and I still am not, but that doesn't matter because magit makes it quite easy.</li>
+<li>treemacs, this was nice for transition purposes, it makes it easy to browse directories like one is used to with normal GUI applications, but in practice it is easier to use helm</li>
+<li>hydra, this makes it easy to define custom commands/shortcuts for potentially complex things that I do frequently (e.g. generate and upload a blog in 1 command, load a set of pages in my browser, run some shell commands, toggle some org mode evaluation features)</li>
+<li>company-mode, I forgot what this does but it is useful</li>
+<li>yapfify, I use this to automatically format my Python code to specs whenever I save a Python file</li>
+<li>elpy, this gives you autocompletion for python functions when you're typing. It makes emacs as convenient as PyCharm</li>
+<li>company-jedi, useful for python</li>
+<li>company-anaconda, useful for python</li>
+<li>ein, this is the way to directly use notebooks in emacs. In practice I found it to be more productive to just use org-mode + ob-ipython</li>
+<li>markdown-mode, because I still need to write markdown</li>
+<li>flycheck, automatic syntax checking</li>
+<li>org-re-reveal, for doing reveal.js presentations with org-mode</li>
+<li>helm-bibtexkey, for easily searching popular sites like arxiv and scholar for papers and importing them into your bib file (also for quick searches of your bib file)</li>
+</ul>
+
+
+<p>
+
+Other useful tools:
+
+</p>
+
+<ul>
+<li>I use Android, which has the `orgzly` app which allows you to edit synchronized org files (e.g. via Dropbox), so this is how I take notes on the fly now and have them automatically available on my computer</li>
+</ul>
+
+
+
+</article>
+
 
 
 <article class="entry-page-article">
