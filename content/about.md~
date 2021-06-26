@@ -4,4 +4,4 @@ author = ["Harrington"]
 draft = false
 +++
 
-This is the about page.
+computational.life is maintained by [Kyle Harrington](https://kyleharrington.com).

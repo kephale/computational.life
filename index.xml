@@ -15,5 +15,16 @@
       <description>computational.life is maintained by Kyle Harrington.</description>
     </item>
     
+    <item>
+      <title>emacs setup</title>
+      <link>https://computational.life/posts/emacs-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://computational.life/posts/emacs-setup/</guid>
+      <description>I&amp;rsquo;m collecting some highlights of my emacs setup so I sound less like a crazy emacs person trying to convert other scientist.
+This setup replaced my previous setup which involved:
+ Google Keep for TODOs and random notes a Dropbox directory of markdown files with longer form notes from meetings and other random notes a directory of Jupyter notebook files + git repositories of notebooks (I do still use some of these for collaborative work)  It also enabled some new features:</description>
+    </item>
+    
   </channel>
 </rss>
