@@ -38,7 +38,7 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "about"
-    name = "This is the about section"
-    title = "about section"
+    name = "about"
+    title = "The about section"
     url = "/about/"
     weight = -110
