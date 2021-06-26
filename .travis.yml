@@ -1,0 +1,25 @@
+language: ruby
+cache: bundler
+sudo: false
+rvm: 2.2
+dist: trusty
+
+before_deploy:
+  # Set up git user name and tag this commit
+  - git config --local user.name "kephale"
+  - git config --local user.email "kyle.i.s.harrington@gmail.com"
+  - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+
+jobs:
+  include:
+    - script:
+        script/bootstrap
+        script/cibuild
+    - stage: GitHub Release
+      script: skip
+      deploy:
+        provider: releases
+        api_key: "$GITHUB_OAUTH_TOKEN"
+        skip_cleanup: true
+        on:
+          tags: true
