@@ -1,4 +1,5 @@
 #+TITLE: Example neurodevelopment simulation video
+#+DATE: 2021-06-27T14:38:00+02:00
 
 This is from work that I primarily did back when I was at HHMI Janelia in 2018-2019, but kept poking at for some time after that. This is based on the work we did in the [[https://www.nature.com/articles/s41592-021-01105-7][SNT paper]]. The rendering itself is done in sciview. What you are seeing is an agent-based model of a neurodevelopment simulation (based on Cx3D) growing in an environment defined by an image. Since I designed this to work with SNT and ImageJ, it is completely possible to load a microscopy image in and run a similar simulation.
 

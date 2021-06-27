@@ -3,16 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://computational.life/</loc>
-    <lastmod>2021-06-27T14:36:02+02:00</lastmod>
+    <lastmod>2021-06-27T14:38:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://computational.life/posts/emacs-setup/</loc>
-    <lastmod>2021-06-27T14:36:02+02:00</lastmod>
+    <loc>https://computational.life/posts/neurodevelopment-video/</loc>
+    <lastmod>2021-06-27T14:38:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/posts/</loc>
+    <lastmod>2021-06-27T14:38:00+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://computational.life/posts/emacs-setup/</loc>
     <lastmod>2021-06-27T14:36:02+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -22,10 +27,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://computational.life/posts/neurodevelopment-video/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
