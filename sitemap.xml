@@ -42,15 +42,26 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://computational.life/swarms/controlling-swarms/</loc>
+    <lastmod>2017-12-01T14:36:02+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://computational.life/swarms/simple-swarm/</loc>
+    <lastmod>2017-12-01T14:36:02+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://computational.life/swarms/</loc>
+    <lastmod>2017-12-01T14:36:02+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://computational.life/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://computational.life/swarms/controlling-swarms/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -67,14 +78,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/visual/moire-effect/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://computational.life/swarms/simple-swarm/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://computational.life/swarms/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

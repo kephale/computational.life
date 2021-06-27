@@ -54,24 +54,35 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://computational.life/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://computational.life/about/</guid>
-      <description>computational.life is maintained by Kyle Harrington.</description>
-    </item>
-    
-    <item>
       <title>Controlling swarms</title>
       <link>https://computational.life/swarms/controlling-swarms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Dec 2017 14:36:02 +0200</pubDate>
       
       <guid>https://computational.life/swarms/controlling-swarms/</guid>
       <description>Control a 3D swarm with your mouse in Clojure. After cloning and starting this project with your favorite git/Clojure tool, your mouse controls an attractor for the swarm. Move your mouse over the window to reposition the sphere representation of the attractor.
  Full repository: https://github.com/brevis-us/brevis.example.swarm-follower
  For setup information see:
  http://computational.life/2015/11/26/a-simple-3d-swarm-in-clojure/</description>
+    </item>
+    
+    <item>
+      <title>Simple Swarm</title>
+      <link>https://computational.life/swarms/simple-swarm/</link>
+      <pubDate>Fri, 01 Dec 2017 14:36:02 +0200</pubDate>
+      
+      <guid>https://computational.life/swarms/simple-swarm/</guid>
+      <description>Swarming and flocking is a fascinating emergent behavior. Agents that follow simple rules, such as stay close to your neighbor (but not too close), can lead to emergent phenomena when many agents are combined together.
+ Here you can see a simple 3D swarm simulation implemented in Clojure with the brevis library. With just over 100 lines of code we can have a 3D swarm.
+ The full repository is available: https://github.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://computational.life/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://computational.life/about/</guid>
+      <description>computational.life is maintained by Kyle Harrington.</description>
     </item>
     
     <item>
@@ -107,17 +118,6 @@
       <description>&amp;lt;img class=&amp;#34;alignnone size-full wp-image-116&amp;#34; src=&amp;#34;img/moire-effect-animated1.gif&amp;#34; alt=&amp;#34;moire-effect-animated&amp;#34; width=&amp;#34;500&amp;#34; height=&amp;#34;500&amp;#34; /&amp;gt;
  Example of Moiré effect. Each frame is a step of rotation.
  The Moiré effect on random dots was developed to illustrate the effect of local correlations on visual perception by Leon Glass (Glass, 1969). Glass first demonstrated the effect using a copy machine and copying a piece of paper with random noise. Local linear patterns are observed for small rotations.</description>
-    </item>
-    
-    <item>
-      <title>Simple swarm</title>
-      <link>https://computational.life/swarms/simple-swarm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://computational.life/swarms/simple-swarm/</guid>
-      <description>Swarming and flocking is a fascinating emergent behavior. Agents that follow simple rules, such as stay close to your neighbor (but not too close), can lead to emergent phenomena when many agents are combined together.
- Here you can see a simple 3D swarm simulation implemented in Clojure with the brevis library. With just over 100 lines of code we can have a 3D swarm.
- The full repository is available: https://github.</description>
     </item>
     
     <item>
