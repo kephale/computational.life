@@ -1,6 +1,6 @@
 #+TITLE: Developing ImageJ Code with Atom
 #+AUTHOR: Kyle IS Harrington
-#+DATE: 15 May 2018
+#+DATE: 2018-05-15T14:36:02+02:00
 
 * Overview
 

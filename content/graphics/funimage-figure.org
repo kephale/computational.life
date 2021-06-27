@@ -1,6 +1,6 @@
 #+TITLE: FunImage figure
 #+AUTHOR: Kyle IS Harrington
-#+DATE: 1 Dec 2017
+#+DATE: 2017-12-01T14:36:02+02:00
 
 Some of you may know that I am not a fan of doing things manually, sometimes to the point of spending many-many factors more time on automation than would be necessary to manually complete a task. Luckily this is not one of those cases.
 

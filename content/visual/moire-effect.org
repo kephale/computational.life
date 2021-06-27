@@ -1,6 +1,7 @@
 #+TITLE: Moire effect
 #+AUTHOR: Kyle IS Harrington
-#+DATE: 1 Dec 2017
+#+DATE: 2017-12-01T14:36:02+02:00
+
 
 <img class="alignnone size-full wp-image-116" src="img/moire-effect-animated1.gif" alt="moire-effect-animated" width="500" height="500" />
 
