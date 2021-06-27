@@ -1,4 +1,4 @@
 #+TITLE: About
 #+AUTHOR: Kyle IS Harrington
 
-computational.life is maintained by [[https://kyleharrington.com][Kyle Harrington]]
+computational.life is maintained by [[https://kyleharrington.com][Kyle Harrington]].
