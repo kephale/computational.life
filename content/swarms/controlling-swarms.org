@@ -4,7 +4,7 @@
 
 #+CAPTION: Animation of a 3D swarm being controlled by a human
 #+NAME: fig:swarm-control
-[[./img/swarm_control_demo_gif_001.gif]]
+[[file:[[./img/swarm_control_demo_gif_001.gif]]]]
 
 Control a 3D swarm with your mouse in Clojure. After cloning and starting this project with your favorite git/Clojure tool, your mouse controls an attractor for the swarm. Move your mouse over the window to reposition the sphere representation of the attractor.
 
