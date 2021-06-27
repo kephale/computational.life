@@ -23,26 +23,41 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/tools/imagej-atom/</loc>
-    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-15T14:36:02+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/image/</loc>
-    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-15T14:36:02+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/image/spacetime_nor_gate/</loc>
-    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-15T14:36:02+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/tools/</loc>
-    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-15T14:36:02+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/swarms/controlling-swarms/</loc>
+    <lastmod>2017-12-01T14:36:02+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://computational.life/graphics/funimage-figure/</loc>
+    <lastmod>2017-12-01T14:36:02+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://computational.life/graphics/</loc>
+    <lastmod>2017-12-01T14:36:02+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://computational.life/visual/moire-effect/</loc>
     <lastmod>2017-12-01T14:36:02+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -57,6 +72,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://computational.life/visual/</loc>
+    <lastmod>2017-12-01T14:36:02+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://computational.life/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -65,19 +85,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://computational.life/graphics/funimage-figure/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://computational.life/graphics/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://computational.life/imprint/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://computational.life/visual/moire-effect/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -86,10 +94,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://computational.life/privacy-policy/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://computational.life/visual/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

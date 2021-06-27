@@ -6,14 +6,14 @@
     <description>Recent content in Images on computational.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://computational.life/image/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 May 2018 14:36:02 +0200</lastBuildDate><atom:link href="https://computational.life/image/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spacetime plotting of chemical circuits</title>
       <link>https://computational.life/image/spacetime_nor_gate/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 May 2018 14:36:02 +0200</pubDate>
       
       <guid>https://computational.life/image/spacetime_nor_gate/</guid>
-      <description>Back in 2010 Michael Heymann and I had a pretty wild idea about creating micron-scale chemical circuits with the [Belousov-Zhabotinsky](http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction) (BZ) reaction. We were familiar with Oli Steinbock&amp;#39;s and Andy Adamatzky&amp;#39;s (and their respective collaborators) fantastic work on creating millimeter-scale circuits using traveling waves, but wanted to compute at an even smaller scale. Being at Brandeis at the right time, we were talking Masa Toiya, Vladimir Vanag, and Irv Epstein who had just published their demonstration of inhibitory coupling between BZ microdroplets.</description>
+      <description>Back in 2010 Michael Heymann and I had a pretty wild idea about creating micron-scale chemical circuits with the Belousov-Zhabotinsky (BZ) reaction. We were familiar with Oli Steinbock&amp;#39;s and Andy Adamatzky&amp;#39;s (and their respective collaborators) fantastic work on creating millimeter-scale circuits using traveling waves, but wanted to compute at an even smaller scale. Being at Brandeis at the right time, we were talking Masa Toiya, Vladimir Vanag, and Irv Epstein who had just published their demonstration of inhibitory coupling between BZ microdroplets.</description>
     </item>
     
   </channel>

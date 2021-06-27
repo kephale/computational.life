@@ -6,11 +6,11 @@
     <description>Recent content in Tools on computational.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://computational.life/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 May 2018 14:36:02 +0200</lastBuildDate><atom:link href="https://computational.life/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developing ImageJ Code with Atom</title>
       <link>https://computational.life/tools/imagej-atom/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 May 2018 14:36:02 +0200</pubDate>
       
       <guid>https://computational.life/tools/imagej-atom/</guid>
       <description>Overview   atom-imagej-mode allows users to run ImageJ2 scripts from Atom.
