@@ -1,6 +1,6 @@
 #+TITLE: Controlling swarms
 #+AUTHOR: Kyle IS Harrington
-#+DATE: 1 Dec 2017
+#+DATE: 2017-12-01T14:36:02+02:00
 
 #+CAPTION: Animation of a 3D swarm being controlled by a human
 #+NAME: fig:swarm-control
