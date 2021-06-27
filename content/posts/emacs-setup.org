@@ -1,8 +1,4 @@
-+++
-title = "emacs setup"
-author = ["Harrington"]
-draft = false
-+++
+#+TITLE: emacs setup
 
 I'm collecting some highlights of my emacs setup so I sound less like a crazy emacs person trying to convert other scientist.
 
