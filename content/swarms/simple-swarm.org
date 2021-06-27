@@ -4,7 +4,7 @@
 
 #+CAPTION: Animation of a simple 3D swarm
 #+NAME: fig:simple-swarm
-[[../img/simple-swarm_animated.gif]]
+[[file:../img/simple-swarm_animated.gif]]
 
 Swarming and flocking is a fascinating emergent behavior. Agents that follow simple rules, such as stay close to your neighbor (but not too close), can lead to emergent phenomena when many agents are combined together.
 
