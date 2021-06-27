@@ -6,7 +6,7 @@ publishDir = ""
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-googleAnalytics = ""
+googleAnalytics = "UA-100347549-3"
 enableRobotsTXT = true
 
 [sitemap]
@@ -15,6 +15,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
+  AuthorName = "Kyle Harrington"
   favicon = ""
   site_logo = ""
   description = "computational.life"
@@ -42,3 +43,26 @@ enableRobotsTXT = true
     title = "The about section"
     url = "/about/"
     weight = -110
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
