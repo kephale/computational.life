@@ -1,4 +1,5 @@
 #+TITLE: emacs setup
+#+AUTHOR: Kyle IS Harrington
 #+DATE: 2021-06-27T14:36:02+02:00
 
 I'm collecting some highlights of my emacs setup so I sound less like a crazy emacs person trying to convert other scientist.

@@ -38,5 +38,30 @@
       <description>computational.life is maintained by Kyle Harrington.</description>
     </item>
     
+    <item>
+      <title>Imprint</title>
+      <link>https://computational.life/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://computational.life/imprint/</guid>
+      <description>Impressum
+ Angaben gemäß § 5 TMG
+ Dr. Kyle I. Harrington Group Leader MAX-DELBRÜCK-CENTRUM FÜR MOLEKULARE MEDIZIN in der Helmholtz-Gemeinschaft Robert-Rössle-Straße 10 13125 Berlin, Germany Office tel.: +49 030 94062195 Email: kyle.harrington at mdc-berlin dot de Redaktionsverantwortlicher nach § 55 Abs. 2 RStV für computational.life
+ Haftungshinweis Diese Website beinhaltet Informationen von Dr. Kyle Harrington. Unser Ziel ist es, zeitgemäße und genaue Informationen bereitzustellen. Wenn wir über Fehler in Kenntnis gesetzt werden, werden wir versuchen, diese zu korrigieren.</description>
+    </item>
+    
+    <item>
+      <title>Terms and Privacy Policy</title>
+      <link>https://computational.life/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://computational.life/privacy-policy/</guid>
+      <description>Privacy Policy
+ The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+ First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+  Definitions
+  The privacy policy of the Max Delbrück Center for Molecular Medicine is based on the terms used by the European legislator in the adoption of the Basic Regulation on Data Protection (DSGVO).</description>
+    </item>
+    
   </channel>
 </rss>

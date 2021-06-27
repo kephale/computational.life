@@ -30,7 +30,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://computational.life/imprint/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://computational.life/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://computational.life/privacy-policy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

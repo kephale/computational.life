@@ -44,25 +44,20 @@ enableRobotsTXT = true
     url = "/about/"
     weight = -110
 
+# https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
   [privacy.disqus]
-    disable = false
+    disable = true
   [privacy.googleAnalytics]
     anonymizeIP = false
     disable = false
     respectDoNotTrack = false
     useSessionStorage = false
   [privacy.instagram]
-    disable = false
-    simple = false
+    disable = true
   [privacy.twitter]
-    disable = false
-    enableDNT = false
-    simple = false
+    disable = true
   [privacy.vimeo]
-    disable = false
-    enableDNT = false
-    simple = false
+    disable = true
   [privacy.youtube]
-    disable = false
-    privacyEnhanced = false
+    disable = true
