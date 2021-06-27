@@ -12,12 +12,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://computational.life/swarms/controlling-swarms/</guid>
-      <description>&amp;lt;img class=&amp;#34; size-full wp-image-47 aligncenter&amp;#34; src=&amp;#34;img/swarm_control_demo_gif_001.gif&amp;#34; alt=&amp;#34;demo_gif_001&amp;#34; width=&amp;#34;320&amp;#34; height=&amp;#34;240&amp;#34; /&amp;gt;
- Control a 3D swarm with your mouse in Clojure. After cloning and starting this project with your favorite git/Clojure tool, your mouse controls an attractor for the swarm. Move your mouse over the window to reposition the sphere representation of the attractor.
- Full repository:
- &amp;lt;a href=&amp;#34;https://github.com/brevis-us/brevis.example.swarm-follower&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;https://github.com/brevis-us/brevis.example.swarm-follower&amp;lt;/a&amp;gt;
+      <description>Control a 3D swarm with your mouse in Clojure. After cloning and starting this project with your favorite git/Clojure tool, your mouse controls an attractor for the swarm. Move your mouse over the window to reposition the sphere representation of the attractor.
+ Full repository: https://github.com/brevis-us/brevis.example.swarm-follower
  For setup information see:
- &amp;lt;a href=&amp;#34;http://computational.life/2015/11/26/a-simple-3d-swarm-in-clojure/&amp;#34;&amp;gt;http://computational.life/2015/11/26/a-simple-3d-swarm-in-clojure/&amp;lt;/a&amp;gt;</description>
+ http://computational.life/2015/11/26/a-simple-3d-swarm-in-clojure/</description>
     </item>
     
     <item>
@@ -26,9 +24,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://computational.life/swarms/simple-swarm/</guid>
-      <description>&amp;lt;img class=&amp;#34; size-full wp-image-45 aligncenter&amp;#34; src=&amp;#34;img/simple-swarm_animated.gif&amp;#34; alt=&amp;#34;simple-swarm_animated.gif&amp;#34; width=&amp;#34;320&amp;#34; height=&amp;#34;240&amp;#34; /&amp;gt;
- Swarming and flocking is a fascinating emergent behavior. Agents that follow simple rules, such as stay close to your neighbor (but not too close), can lead to emergent phenomena when many agents are combined together.
- Here you can see a simple 3D swarm simulation implemented in Clojure with the &amp;lt;a href=&amp;#34;http://brevis.us&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;Brevis&amp;lt;/a&amp;gt; library. With just over 100 lines of code we can have a 3D swarm.</description>
+      <description>Swarming and flocking is a fascinating emergent behavior. Agents that follow simple rules, such as stay close to your neighbor (but not too close), can lead to emergent phenomena when many agents are combined together.
+ Here you can see a simple 3D swarm simulation implemented in Clojure with the brevis library. With just over 100 lines of code we can have a 3D swarm.
+ The full repository is available: https://github.</description>
     </item>
     
   </channel>
