@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on computational.life</title>
+    <link>https://computational.life/tools/</link>
+    <description>Recent content in Tools on computational.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://computational.life/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing ImageJ Code with Atom</title>
+      <link>https://computational.life/tools/imagej-atom/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://computational.life/tools/imagej-atom/</guid>
+      <description>Overview   atom-imagej-mode allows users to run ImageJ2 scripts from Atom.
+ atom-imagej-mode is available [here](https://github.com/kephale/atom-imagej-mode).
+  Installing atom-imagej-mode    Enable the imagej-server update site (https://imagej.net/ImageJ_Server) in Fiji
+  In Atom:   Packages \ Settings View \ Install Packages/Themes
+  Search for:   atom-imagej-mode
+  Install the package
+  In Atom:   Packages \ Settings View \ Manage Packages</description>
+    </item>
+    
+  </channel>
+</rss>

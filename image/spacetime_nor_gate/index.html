@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Spacetime plotting of chemical circuits | computational.life</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Back in 2010 Michael Heymann and I had a pretty wild idea about creating micron-scale chemical circuits with the [Belousov-Zhabotinsky](http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction) (BZ) reaction. We were familiar with Oli Steinbock&#39;s and Andy Adamatzky&#39;s (and their respective collaborators) fantastic work on creating millimeter-scale circuits using traveling waves, but wanted to compute at an even smaller scale. Being at Brandeis at the right time, we were talking Masa Toiya, Vladimir Vanag, and Irv Epstein who had just published their demonstration of inhibitory coupling between BZ microdroplets.">
+    <meta name="generator" content="Hugo 0.84.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Spacetime plotting of chemical circuits" />
+<meta property="og:description" content="Back in 2010 Michael Heymann and I had a pretty wild idea about creating micron-scale chemical circuits with the [Belousov-Zhabotinsky](http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction) (BZ) reaction. We were familiar with Oli Steinbock&#39;s and Andy Adamatzky&#39;s (and their respective collaborators) fantastic work on creating millimeter-scale circuits using traveling waves, but wanted to compute at an even smaller scale. Being at Brandeis at the right time, we were talking Masa Toiya, Vladimir Vanag, and Irv Epstein who had just published their demonstration of inhibitory coupling between BZ microdroplets." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://computational.life/image/spacetime_nor_gate/" /><meta property="article:section" content="image" />
+<meta property="article:published_time" content="2018-05-15T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2018-05-15T00:00:00&#43;00:00" />
+
+<meta itemprop="name" content="Spacetime plotting of chemical circuits">
+<meta itemprop="description" content="Back in 2010 Michael Heymann and I had a pretty wild idea about creating micron-scale chemical circuits with the [Belousov-Zhabotinsky](http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction) (BZ) reaction. We were familiar with Oli Steinbock&#39;s and Andy Adamatzky&#39;s (and their respective collaborators) fantastic work on creating millimeter-scale circuits using traveling waves, but wanted to compute at an even smaller scale. Being at Brandeis at the right time, we were talking Masa Toiya, Vladimir Vanag, and Irv Epstein who had just published their demonstration of inhibitory coupling between BZ microdroplets."><meta itemprop="datePublished" content="2018-05-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-05-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="407">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Spacetime plotting of chemical circuits"/>
+<meta name="twitter:description" content="Back in 2010 Michael Heymann and I had a pretty wild idea about creating micron-scale chemical circuits with the [Belousov-Zhabotinsky](http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction) (BZ) reaction. We were familiar with Oli Steinbock&#39;s and Andy Adamatzky&#39;s (and their respective collaborators) fantastic work on creating millimeter-scale circuits using traveling waves, but wanted to compute at an even smaller scale. Being at Brandeis at the right time, we were talking Masa Toiya, Vladimir Vanag, and Irv Epstein who had just published their demonstration of inhibitory coupling between BZ microdroplets."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        computational.life
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/graphics/" title="Graphics page">
+              Graphics
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/image/" title="Images page">
+              Images
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/swarms/" title="Swarms page">
+              Swarms
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/tools/" title="Tools page">
+              Tools
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/visual/" title="Visuals page">
+              Visuals
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+<a href="https://twitter.com/kisharrington" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        IMAGES
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://computational.life/image/spacetime_nor_gate/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://computational.life/image/spacetime_nor_gate/&amp;text=Spacetime%20plotting%20of%20chemical%20circuits" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://computational.life/image/spacetime_nor_gate/&amp;title=Spacetime%20plotting%20of%20chemical%20circuits" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Spacetime plotting of chemical circuits</h1>
+      
+      <p class="tracked">
+          By <strong>
+          
+              Kyle IS Harrington
+          
+          </strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-05-15T00:00:00Z">May 15, 2018</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>
+Back in 2010 Michael Heymann and I had a pretty wild idea about creating micron-scale chemical circuits with the [Belousov-Zhabotinsky](<a href="http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction)">http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction)</a> (BZ) reaction. We were familiar with Oli Steinbock&#39;s and Andy Adamatzky&#39;s (and their respective collaborators) fantastic work on creating millimeter-scale circuits using traveling waves, but wanted to compute at an even smaller scale. Being at Brandeis at the right time, we were talking Masa Toiya, Vladimir Vanag, and Irv Epstein who had just published their demonstration of inhibitory coupling between BZ microdroplets. We did an initial simulation proof-of-concept showing that it was possible to create a NOR-gate with the BZ reaction (Heymann et al, 2010), but had some issues developing the experimental prototype. Noting that the NOR-gate is one of the 2 universal logic gates (the other being NAND), making it very appealing to implement.</p>
+<p>
+A few years later, Antonella DiLillo introduced me to Jacob Gold and Adam Wang who were studying everything from chaos theory to high-energy physics. They took on the challenge of developing a microfluidic BZ NOR-gate. After developing an online controller for evolving swarm simulations (Gold et al, 2014), they managed to physically realize the simulated predictions as ~450 micron NOR-gates (composed of 3x 150 micron droplets) (Wang et al, 2016). An array of these gates are shown below.</p>
+<p>
+![Array of chemical NOR gates](<a href="https://raw.githubusercontent.com/kephale/spacetime-nor-gates/master/resources/V5_fullNOR_shrinkquarter_compress.gif)">https://raw.githubusercontent.com/kephale/spacetime-nor-gates/master/resources/V5_fullNOR_shrinkquarter_compress.gif)</a></p>
+<p>
+Spacetime plots are particularly useful when analyzing such experiments. Below are spacetime plots that correspond to each NOR-gate in the video above (left to right, and top to bottom).</p>
+<p>
+![Spacetime plot 1](img/roi_0001-0055-0037.jpg)
+![Spacetime plot 2](img/roi_0001-0057-0188.jpg)
+![Spacetime plot 3](img/roi_0001-0161-0048.jpg)
+![Spacetime plot 4](img/roi_0001-0163-0198.jpg)
+![Spacetime plot 5](img/roi_0001-0056-0113.jpg)
+![Spacetime plot 6](img/roi_0001-0059-0263.jpg)
+![Spacetime plot 7](img/roi_0001-0162-0123.jpg)
+![Spacetime plot 8](img/roi_0001-0164-0273.jpg)</p>
+<p>
+These spacetime plots are useful for studying many spatiotemporal dynamics, such as interflagellar transport, particle flow, and optically visible oscillations.</p>
+<p>
+Here is a Github repository with some example code for producing spacetime plots from a video of BZ NOR-gates from (Wang et al, 2016): [<a href="https://github.com/kephale/spacetime-nor-gates](https://github.com/kephale/spacetime-nor-gates)">https://github.com/kephale/spacetime-nor-gates](https://github.com/kephale/spacetime-nor-gates)</a></p>
+<p>
+Reference:  </p>
+<ol>
+<li>
+<p>&lt;em&gt;Gold, J., Wang, A. and Harrington, K., 2014.&lt;/em&gt;&lt;strong&gt; Feedback Control of Evolving Swarms&lt;/strong&gt;&lt;em&gt;. Proceedings of Artificial Life XIV, pp.884-891.&lt;/em&gt;  </p>
+</li>
+<li>
+<p>&lt;em&gt;Heymann, M., Harrington, K.I., Pollack, J.B. and Fraden, S., 2010.&lt;/em&gt;&lt;strong&gt; En Route to Signal Inversion in Chemical Computing&lt;/strong&gt;&lt;em&gt;. In ALIFE (pp. 166-167).&lt;/em&gt;  </p>
+</li>
+<li>
+<p>Toiya, M., Vanag, V.K. and Epstein, I.R., 2008. Diffusively coupled chemical oscillators in a microfluidic assembly. Angewandte Chemie, 120(40), pp.7867-7869.  </p>
+</li>
+<li>
+<p>&lt;em&gt;Wang, A.L., Gold, J.M., Tompkins, N., Heymann, M., Harrington, K.I. and Fraden, S., 2016.&lt;/em&gt;&lt;strong&gt; Configurable NOR gate arrays from Belousov-Zhabotinsky micro-droplets&lt;/strong&gt;&lt;em&gt;. The European Physical Journal Special Topics, 225(1), pp.211-227.&lt;/em&gt;  </p>
+</li>
+</ol>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://computational.life/" >
+    &copy;  computational.life 2021 
+  </a>
+  <div>
+    <a href="imprint" title="Imprint">imprint</a>
+    <a href="privacy-policy" title="Privacy policy">privacy policy</a>
+  </div>    
+  <div>
+
+
+
+
+<a href="https://twitter.com/kisharrington" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

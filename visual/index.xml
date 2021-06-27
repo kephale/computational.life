@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visuals on computational.life</title>
+    <link>https://computational.life/visual/</link>
+    <description>Recent content in Visuals on computational.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://computational.life/visual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moire effect</title>
+      <link>https://computational.life/visual/moire-effect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://computational.life/visual/moire-effect/</guid>
+      <description>&amp;lt;img class=&amp;#34;alignnone size-full wp-image-116&amp;#34; src=&amp;#34;img/moire-effect-animated1.gif&amp;#34; alt=&amp;#34;moire-effect-animated&amp;#34; width=&amp;#34;500&amp;#34; height=&amp;#34;500&amp;#34; /&amp;gt;
+ Example of Moiré effect. Each frame is a step of rotation.
+ The Moiré effect on random dots was developed to illustrate the effect of local correlations on visual perception by Leon Glass (Glass, 1969). Glass first demonstrated the effect using a copy machine and copying a piece of paper with random noise. Local linear patterns are observed for small rotations.</description>
+    </item>
+    
+  </channel>
+</rss>

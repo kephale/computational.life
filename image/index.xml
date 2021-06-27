@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Images on computational.life</title>
+    <link>https://computational.life/image/</link>
+    <description>Recent content in Images on computational.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://computational.life/image/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spacetime plotting of chemical circuits</title>
+      <link>https://computational.life/image/spacetime_nor_gate/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://computational.life/image/spacetime_nor_gate/</guid>
+      <description>Back in 2010 Michael Heymann and I had a pretty wild idea about creating micron-scale chemical circuits with the [Belousov-Zhabotinsky](http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction) (BZ) reaction. We were familiar with Oli Steinbock&amp;#39;s and Andy Adamatzky&amp;#39;s (and their respective collaborators) fantastic work on creating millimeter-scale circuits using traveling waves, but wanted to compute at an even smaller scale. Being at Brandeis at the right time, we were talking Masa Toiya, Vladimir Vanag, and Irv Epstein who had just published their demonstration of inhibitory coupling between BZ microdroplets.</description>
+    </item>
+    
+  </channel>
+</rss>
