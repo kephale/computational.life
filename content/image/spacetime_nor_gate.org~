@@ -1,0 +1,31 @@
+#+TITLE: Spacetime plotting of chemical circuits
+#+AUTHOR: Kyle IS Harrington
+#+DATE: 2018-05-15T14:36:02+02:00
+
+Back in 2010 Michael Heymann and I had a pretty wild idea about creating micron-scale chemical circuits with the [Belousov-Zhabotinsky](http://www.scholarpedia.org/article/Belousov-Zhabotinsky_reaction) (BZ) reaction. We were familiar with Oli Steinbock's and Andy Adamatzky's (and their respective collaborators) fantastic work on creating millimeter-scale circuits using traveling waves, but wanted to compute at an even smaller scale. Being at Brandeis at the right time, we were talking Masa Toiya, Vladimir Vanag, and Irv Epstein who had just published their demonstration of inhibitory coupling between BZ microdroplets. We did an initial simulation proof-of-concept showing that it was possible to create a NOR-gate with the BZ reaction (Heymann et al, 2010), but had some issues developing the experimental prototype. Noting that the NOR-gate is one of the 2 universal logic gates (the other being NAND), making it very appealing to implement.
+
+A few years later, Antonella DiLillo introduced me to Jacob Gold and Adam Wang who were studying everything from chaos theory to high-energy physics. They took on the challenge of developing a microfluidic BZ NOR-gate. After developing an online controller for evolving swarm simulations (Gold et al, 2014), they managed to physically realize the simulated predictions as ~450 micron NOR-gates (composed of 3x 150 micron droplets) (Wang et al, 2016). An array of these gates are shown below.
+
+![Array of chemical NOR gates](https://raw.githubusercontent.com/kephale/spacetime-nor-gates/master/resources/V5_fullNOR_shrinkquarter_compress.gif)
+
+Spacetime plots are particularly useful when analyzing such experiments. Below are spacetime plots that correspond to each NOR-gate in the video above (left to right, and top to bottom).
+
+![Spacetime plot 1](img/roi_0001-0055-0037.jpg)
+![Spacetime plot 2](img/roi_0001-0057-0188.jpg)
+![Spacetime plot 3](img/roi_0001-0161-0048.jpg)
+![Spacetime plot 4](img/roi_0001-0163-0198.jpg)
+![Spacetime plot 5](img/roi_0001-0056-0113.jpg)
+![Spacetime plot 6](img/roi_0001-0059-0263.jpg)
+![Spacetime plot 7](img/roi_0001-0162-0123.jpg)
+![Spacetime plot 8](img/roi_0001-0164-0273.jpg)
+
+These spacetime plots are useful for studying many spatiotemporal dynamics, such as interflagellar transport, particle flow, and optically visible oscillations.
+
+Here is a Github repository with some example code for producing spacetime plots from a video of BZ NOR-gates from (Wang et al, 2016): [https://github.com/kephale/spacetime-nor-gates](https://github.com/kephale/spacetime-nor-gates)
+
+
+Reference:  
+1. <em>Gold, J., Wang, A. and Harrington, K., 2014.</em><strong> Feedback Control of Evolving Swarms</strong><em>. Proceedings of Artificial Life XIV, pp.884-891.</em>  
+1. <em>Heymann, M., Harrington, K.I., Pollack, J.B. and Fraden, S., 2010.</em><strong> En Route to Signal Inversion in Chemical Computing</strong><em>. In ALIFE (pp. 166-167).</em>  
+1. Toiya, M., Vanag, V.K. and Epstein, I.R., 2008. Diffusively coupled chemical oscillators in a microfluidic assembly. Angewandte Chemie, 120(40), pp.7867-7869.  
+1. <em>Wang, A.L., Gold, J.M., Tompkins, N., Heymann, M., Harrington, K.I. and Fraden, S., 2016.</em><strong> Configurable NOR gate arrays from Belousov-Zhabotinsky micro-droplets</strong><em>. The European Physical Journal Special Topics, 225(1), pp.211-227.</em>  
